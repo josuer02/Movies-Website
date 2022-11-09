@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+main {
+  margin-top: 7rem;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+p {
+  color: black;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: white;
+}
+
+.centered {
+  margin: 3rem auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.focused {
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: lightblue;
+  color: white;
+  border-radius: 4px;
+  padding: 0.75rem 1.5rem;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: lightblue;
+  border-color: lightblue;
+}
+
+.btn--flat {
+  cursor: pointer;
+  font: inherit;
+  color: white;
+  border: none;
+  background-color: none;
+  text-decoration: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+}
+
+.btn--flat:hover,
+.btn--flat:active {
+  background-color: lightblue;
+  color: white;
+}
+.carros {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #230052;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 12px;
+  text-align: center;
+  color: white;
+}
+
+.carros h2 {
+  font-size: 2rem;
+  color: #f7e702;
+}
+
+.carros h3 {
+  color: #eccf77;
+  margin: 0;
+  font-size: 1rem;
+}
+.carros-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.loader {
+  border: 5px solid #f3f3f3;
+  margin: 0 auto;
+  border-radius: 100%;
+  border-top: 5px solid #3498db;
+  width: 50px;
+  height: 50px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
